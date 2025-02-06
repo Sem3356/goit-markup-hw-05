@@ -846,12 +846,12 @@ img {
 }
 
 
-.modal-check {
+.check-modal {
+    width: 16px;
+    height: 16px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 16px;
-    height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
@@ -869,7 +869,7 @@ img {
 }
 
 
-.input-consent:checked+.text-consent .modal-check {
+.input-consent:checked+.text-consent .check-modal {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
