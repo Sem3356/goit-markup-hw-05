@@ -421,7 +421,9 @@
             <div class="footer-sub">
                 <p class="text-sub">Subscribe</p>
                 <form class="form-sub">
-                    <input type="email" class="input-sub" name="email" placeholder="E-mail">
+                    <label class="label-sub" for="email-sub">
+                        <input type="email" class="input-sub" name="email" id="email-sub" placeholder="E-mail" />
+                    </label>
                     <button class="btn-sub" type="submit">Subscribe<svg class="icons-sub" width="24" height="24">
                             <use href="./images/icons.svg#icon-Frame"></use>
                         </svg>
@@ -475,7 +477,7 @@
                     </div>
                 </div>
 
-                <div class="modal-field">
+                <div class="field-comment">
                     <label class="modal-label" for="user-comment">Comment</label>
                     <textarea name="user-comment" id="user-comment" class="modal-comment"
                         placeholder="Text input"></textarea>
